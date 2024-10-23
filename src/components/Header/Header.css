@@ -1,0 +1,21 @@
+.navegar{
+    background-color: #495057;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    /*position: fixed;*/
+    top: 3%;
+    width: 100%;
+    margin-top: -1em;
+    padding: 1.8%;
+}
+.container{
+    margin-top: 0.3%;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.menu_1{
+    text-decoration: none;
+    color: whitesmoke;
+}

@@ -1,16 +1,20 @@
-
-import './App.css'
+import React from "react";
+import Heard from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Projeto from "./pages/Projeto/Projeto";
+import Skills from "./pages/Skills/Skills";
 
 function App() {
-
   return (
     <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
-      </main>
+      <Heard />
+      <Home />
+      <Projeto />
+      <Skills />
+      <Footer />
     </>
   );
 }
 
-export default App
+export default App;

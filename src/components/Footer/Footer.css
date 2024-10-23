@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo2 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.rodape{
+    background-color: #90ABD9;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+.direitos{
+    color: white;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.local{
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}

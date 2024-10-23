@@ -1,15 +1,22 @@
-
+/* eslint-disable no-unused-vars */
+import Header from './components/Header';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import SocialLinks from './components/SocialLinks';
 import './App.css'
 
-function App() {
+const App = () => {
 
   return (
-    <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
-      </main>
-    </>
+    <div className="App max-w-4xl mx-auto">
+      <Header />
+      <About />
+      <Skills />
+      <Projects />
+      <SocialLinks />
+
+    </div>
   );
 }
 

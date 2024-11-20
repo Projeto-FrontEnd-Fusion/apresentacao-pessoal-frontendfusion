@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column; /* Adicionado para responsividade */
+    justify-content: space-between; /* Mudar o alinhamento */
+    padding: 0 1rem; /* Adiciona um pouco de espaço nas laterais */
+}
+
+.header span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.header a:hover {
+    color: var(--red);
+}

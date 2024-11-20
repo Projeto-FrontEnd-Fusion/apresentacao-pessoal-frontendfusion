@@ -1,3 +1,37 @@
+# João Batista.dev
+
+Este é um portfólio pessoal desenvolvido em React para apresentar projetos e informações sobre João Batista Ribeiro.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **React Router**: Para navegação entre as diferentes páginas da aplicação.
+- **Context API**: Para gerenciar o estado global da aplicação.
+
+## Funcionalidades
+
+- **Navegação**: Um cabeçalho responsivo com um menu que se transforma em um menu de hambúrguer em telas menores.
+- **Temas**: Suporte para temas claro e escuro usando Context API.
+- **Rodapé**: Informações sobre o autor, que muda de estilo com base no tema escolhido.
+
+## Estrutura do Projeto
+
+- `src/`: Contém o código fonte da aplicação.
+  - `components/`: Contém componentes reutilizáveis como `Header` e `Footer`.
+  - `context/`: Contém o contexto da aplicação para gerenciamento de estado.
+  - `pages/`: Contém as diferentes páginas da aplicação.
+  - `routes/`: Define as rotas da aplicação.
+  - `App.jsx`: Componente principal da aplicação.
+
+## Como Instalar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+
+
 # Desafio de Apresentação Pessoal - Processo Seletivo Frontend Fusion - [cargo voluntário]
 
 ## Sobre o Desafio

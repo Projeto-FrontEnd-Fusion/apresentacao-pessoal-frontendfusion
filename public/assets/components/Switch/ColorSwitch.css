@@ -1,0 +1,123 @@
+.container_switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    z-index: 30;
+    .switch {
+      outline: none;
+      
+    }
+    
+  }
+  /* Muda a cor da bolinha do Switch */
+/* Cor de fundo quando ativado */
+.container_switch .switch.ant-switch-checked {
+  background-color: #5eff00 !important;
+}
+
+/* Cor de fundo quando desativado */
+.container_switch .switch {
+  background-color: #ccc !important;
+}
+
+
+
+  /* Estilo para modo escuro */
+  body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  body.dark-mode section {
+    background-color: #000000;
+    color: white;
+    
+  }
+  
+  /* Outros elementos, caso necessário */
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode span,
+  body.dark-mode a,
+  body.dark-mode,
+  body.dark-mode p {
+    color: white;
+   
+  }
+  /* container_habili_text */
+  body.dark-mode #habilidades{
+    background-color: #000000;
+    h1{
+      color: white;
+    }
+  }
+  body.dark-mode .descricao{
+
+  color: #000000;
+
+  }
+  body.dark-mode html{
+    background-color: #000000;
+  }
+ 
+
+ /* ===========MEDIA SCREEN =============== */
+@media (max-width: 480px) {
+  .container_switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    right: 0;
+    margin-top: 10vh;
+    margin-right: 6vw;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    .switch {
+      outline: none;
+     width: 15vw;
+     
+     
+      
+    }
+    /* icon_switch */
+    .icon_switch{
+      font-size: 3vw;
+    }
+    
+  }
+    /* Muda a cor da bolinha do Switch */
+/* Cor de fundo quando ativado */
+.container_switch .switch.ant-switch-checked {
+  background-color: #5eff00 !important;
+  
+}
+
+/* Cor de fundo quando desativado */
+.container_switch .switch {
+  background-color: #ccc !important;
+ 
+}
+/* container_habili_text */
+body.dark-mode #habilidades{
+  background-color: #000000;
+  h1{
+    color: white;
+  }
+}
+body.dark-mode .descricao{
+
+color: #000000;
+
+}
+body.dark-mode html{
+  background-color: #000000;
+}
+
+}

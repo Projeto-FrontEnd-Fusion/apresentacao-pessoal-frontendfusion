@@ -1,3 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: white;
+
+}
+html {
+  /* cursor: url('/src/assets/img/icons/cursor.png'), auto; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +35,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,42 +43,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
+
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -65,4 +64,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+/* FONTES */
+@font-face {
+  font-family: 'Purista Bold';
+  src: url('/assets/fonts/puristBold/Purista Bold.otf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family:Gotham;
+  src: url('/fonts/Gotham/gotham-light.woff2');
+}
+
+
+@font-face {
+  font-family:Proelium;
+  src: url('/fonts/Proelium/Proelium.otf');
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #121315;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg,#5eff00,  #3d8315,  #5eff00);
+  border-radius: 2px;
+  transition: 0.5s ease-in-out;
 }

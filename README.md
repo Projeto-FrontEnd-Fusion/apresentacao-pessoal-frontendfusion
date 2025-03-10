@@ -1,96 +1,56 @@
-# Desafio de Apresentação Pessoal - Processo Seletivo Frontend Fusion - [cargo voluntário]
+# Apresentação Pessoal - Frontend Fusion  
 
-## Sobre o Desafio
+Este é o projeto de apresentação pessoal desenvolvido como parte do desafio do processo seletivo para a vaga de **Desenvolvedor React Júnior** no projeto **Frontend Fusion**.  
+![Descrição da Imagem](https://drive.google.com/uc?id=11hfPwOVHPTAONkap9mTy6LXrf4Hc2rMd)  
 
-Bem-vindo ao desafio de apresentação pessoal do processo seletivo do projeto Frontend Fusion para a vaga de Desenvolvedor React Júnior. Este desafio foi criado para avaliar suas habilidades em desenvolvimento com React e sua capacidade de criar uma página de apresentação pessoal.
+[Veja o Deploy do Projeto Aqui](https://apresentacao-pessoal-frontend.netlify.app/)
 
-> OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato. 
-Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
-[Forms de inscrição](https://forms.gle/EJKDNKdmVZM3zQTr7)
-é importante está inscrito no formulário , pois o seu email precisa ser validado
+## Sobre o Projeto  
 
-## Objetivo
+O objetivo deste projeto foi criar uma página de apresentação pessoal que destaca minhas informações, habilidades e projetos recentes, utilizando **React** e **Redux**  para boas práticas de desenvolvimento frontend.  
 
-Crie uma página de apresentação pessoal utilizando React com Vite. Esta página deve incluir:
+## Funcionalidades  
 
-- Seu nome
-- Uma breve descrição sobre você
-- Suas habilidades
-- Seus projetos recentes
-- Links para suas redes sociais (LinkedIn, GitHub, etc.)
+- **Apresentação Pessoal**: Inclui meu nome, uma breve descrição e links para minhas redes sociais.  
+- **Habilidades**: Lista as principais tecnologias e ferramentas que domino.  
+- **Projetos Recentes**: Exibe os projetos mais relevantes que desenvolvi, com links para visualização.  
+- **Links para Redes Sociais**: Inclui botões para LinkedIn, GitHub e outras plataformas.  
 
-## Diferenciais
+## Tecnologias Utilizadas  
 
-Para se destacar, recomendamos implementar os seguintes diferenciais:
+- **React** com **Vite**  
+- **Tailwind CSS** para estilização responsiva e moderna  
+- **Redux Toolkit** para gerenciamento de estado (quando aplicável) 
+- **AOS (Animate On Scroll)** para animações sutis ao rolar a página  
+- **React Icons** para ícones estilizados  
+ 
 
-- **Tailwind CSS**: Utilize Tailwind CSS para estilizar sua página.
-- **Gerenciadores de Estado**: Utilize gerenciadores de estado como Redux ou Context API para gerenciar o estado da aplicação.
-- **Responsividade**: Certifique-se de que sua página seja totalmente responsiva e funcione bem em diferentes dispositivos.
-- **Boas Práticas de Código**: Siga boas práticas de código, como organização de arquivos, componentes reutilizáveis e uso adequado de hooks.
-- **Acessibilidade**: Implemente boas práticas de acessibilidade para garantir que sua página possa ser utilizada por todos.
-- **Animações e Transições**: Adicione animações e transições para melhorar a experiência do usuário.
-- **Commits Semânticos**: Utilize commits semânticos para manter um histórico de commits claro e organizado.
+## Diferenciais Implementados  
 
-## Entrega
+- **Responsividade**: A página foi projetada para funcionar perfeitamente em dispositivos móveis, tablets e desktops.  
+- **Animações**: Transições suaves e animações para uma experiência de usuário agradável.  
+- **Boas Práticas de Código**: Estrutura de arquivos organizada, componentes reutilizáveis e uso apropriado de hooks.  
+- **Acessibilidade**: Segui princípios de acessibilidade para garantir que a página possa ser usada por todos.  
 
-Faça o deploy da sua aplicação em plataformas como GitHub Pages, Heroku, Vercel, Netlify, ou qualquer outra de sua preferência. Após concluir o desafio, envie o link do deploy e do repositório do código-fonte por e-mail para **projetofrontendfusion@gmail.com**. O e-mail deve incluir:
+## Deploy  
 
-- Nome
-- Link do GitHub
-- Link da postagem no linkedin
-- Data de Início
-- Data de Entrega
-- Link do GitHub com o Código
-- Link do Deploy
+O projeto foi publicado e está disponível online no seguinte link:  
+[Apresentação Pessoal - Frontend Fusion](https://apresentacao-pessoal-frontend.netlify.app/)  
 
-**Observação:** É obrigatório entregar os três desafios em até **20 dias** após o início. O desafio atual é a **Parte 01 de 03 desafios**.
+## Como Rodar o Projeto Localmente  
 
-## Prazo
+1. Clone o repositório:  
+   ```bash  
+   git clone https://github.com/seu-usuario/seu-repositorio.git  
+2. Acesse o diretório do projeto:  
+   ```bash  
+   cd seu-repositorio  
+3. Instale as dependências:
+   ```bash  
+   npm install  
+4. Inicie o servidor de desenvolvimento: 
+   ```bash  
+   npm run dev  
+ 
 
-Você tem 20 dias para concluir todos os três desafios.
 
-## Avaliação
-
-Os critérios de avaliação incluirão:
-
-- Funcionalidade
-- Qualidade do código
-- Uso dos diferenciais mencionados
-- Estética e design
-- Responsividade
-- Acessibilidade
-
-## Como Participar
-
-1. Faça um fork deste repositório.
-2. Desenvolva sua solução no seu repositório forkado.
-3. Após completar o desafio, envie o link do deploy e do repositório através do e-mail para **projetofrontendfusion@gmail.com** com o assunto: **"Entrega + Desafios[01] + Seu Nome"**.
-
-## Exemplo de E-mail:
-
-**Assunto:** Entrega + Desafios[01] + João Silva
-
----
-
-Olá,
-
-Segue abaixo a entrega do Desafio 01 para o processo seletivo do Frontend Fusion.
-
-**Nome:** João Silva  
-**Link do GitHub:** [https://github.com/joaosilva](https://github.com/joaosilva)  
-**Link do LinkedIn:** [https://linkedin.com/in/joaosilva](https://linkedin.com/in/joaosilva)  
-**Data de Início:** 01/09/2024  
-**Data de Entrega:** 20/09/2024  
-**Link do GitHub com o Código:** [https://github.com/joaosilva/desafio01](https://github.com/joaosilva/desafio01)  
-**Link do Deploy:** [https://joaosilva.netlify.app](https://joaosilva.netlify.app)
-
-Agradeço a oportunidade e estou à disposição para qualquer dúvida.
-
-Atenciosamente,  
-João Silva
-
----
-
-Boa sorte e estamos ansiosos para ver seu trabalho! 🚀
-
-Este desafio faz parte do processo seletivo do projeto Frontend Fusion para a vaga de Desenvolvedor React Júnior.

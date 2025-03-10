@@ -1,0 +1,1111 @@
+.section_5 {
+  width: 100%;
+  height: 100vh; /* Altura suficiente para rolagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* Estilos principais do footer */
+.footer {
+  /* border-bottom: 1px solid #0056b3; */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footerColumn {
+  flex: 1;
+  width: 20%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerTitle {
+  font-family: "Proelium";
+  overflow: hidden;
+  font-size: 2vw;
+  background: linear-gradient(to left, #5eff00, #5eff00);
+  -webkit-background-clip: text; /* Para Safari */
+  -webkit-text-fill-color: transparent; /* Para Safari */
+  color: transparent; /* Para outros navegadores */
+  transition: none !important; /* Mantém a transição como none */
+  white-space: normal;
+}
+
+.footerText {
+  font-family: "Gotham";
+  color: #000000;
+  font-size: 1vw;
+}
+
+.footerList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.footerList li {
+  margin-bottom: 10px;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footerList a {
+  color: #000000;
+  font-family: "Gotham";
+  font-size: 1vw;
+  transition: 0.5s;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
+.footerList a:hover {
+  color: #5eff00;
+}
+
+/* Links sociais */
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 1vh;
+
+  width: 100%;
+  height: 100%;
+}
+.socialLinks img {
+  width: 7vw;
+}
+.socialLinks a {
+  color: #000000;
+  font-family: "Gotham";
+  font-size: 1.2vw;
+  font-size: 2vw;
+  border-radius: 4px;
+}
+/* div_icons */
+.div_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+}
+
+.socialLinks a:hover {
+  color: #5eff00;
+}
+
+.footer .bi {
+  color: #5eff00;
+}
+/* Copyright */
+.copyright {
+  position: absolute;
+  bottom: 0;
+  color: #050505;
+  font-family: Gotham;
+  font-size: 1.2vw;
+  margin-bottom: 1vh;
+}
+
+/* ============MEDIA SCREEN ================= */
+@media (min-height:1080px) and (max-width: 1920px) and (orientation: landscape){
+  .section_5 {
+    width: 100%;
+    height: 100vh; /* Altura suficiente para rolagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    /* border-bottom: 1px solid #0056b3; */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .footerColumn {
+    flex: 1;
+    width: 20%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footerTitle {
+    font-family: "Proelium";
+    overflow: hidden;
+    font-size: 2vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+  }
+  
+  .footerText {
+    font-family: "Gotham";
+    color: #000000;
+    font-size: 1vw;
+  }
+  
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .footerList li {
+    margin-bottom: 10px;
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .footerList a {
+    color: #000000;
+    font-family: "Gotham";
+    font-size: 1vw;
+    transition: 0.5s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+  }
+  
+  .footerList a:hover {
+    color: #5eff00;
+  }
+  
+  /* Links sociais */
+  .socialLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1vh;
+  
+    width: 100%;
+    height: 100%;
+  }
+  .socialLinks img {
+    width: 7vw;
+  }
+  .socialLinks a {
+    color: #000000;
+    font-family: "Gotham";
+    font-size: 1.2vw;
+    font-size: 2vw;
+    border-radius: 4px;
+  }
+  /* div_icons */
+  .div_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+  }
+  
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+  
+  .footer .bi {
+    color: #5eff00;
+  }
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 1.2vw;
+    margin-bottom: 1vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1620px) and (orientation: landscape) {
+  .section_5 {
+    width: 100%;
+    height: 100vh; /* Altura suficiente para rolagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    /* border-bottom: 1px solid #0056b3; */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    flex: 1;
+    width: 20%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footerTitle {
+    font-family: "Proelium";
+    overflow: hidden;
+    font-size: 2vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+  }
+
+  .footerText {
+    font-family: "Gotham";
+    color: #000000;
+    font-size: 1vw;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footerList a {
+    color: #000000;
+    font-family: "Gotham";
+    font-size: 1vw;
+    transition: 0.5s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+  }
+
+  .footerList a:hover {
+    color: #5eff00;
+  }
+
+  /* Links sociais */
+  .socialLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1vh;
+
+    width: 100%;
+    height: 100%;
+  }
+  .socialLinks img {
+    width: 7vw;
+  }
+  .socialLinks a {
+    color: #000000;
+    font-family: "Gotham";
+    font-size: 1.2vw;
+    font-size: 2vw;
+    border-radius: 4px;
+  }
+  /* div_icons */
+  .div_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+  }
+
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+
+  .footer .bi {
+    color: #5eff00;
+  }
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 1.2vw;
+    margin-bottom: 1vh;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
+  /* footer.module.css */
+  .section_5 {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #050505;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    flex: 1;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2vh;
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .footerTitle {
+    font-family: Proelium;
+    overflow: hidden;
+    font-size: 8vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerText {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 5vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footerList li:hover {
+    background-color: #333;
+    color: #050505;
+  }
+
+  .footerList li i {
+    margin-right: 8px;
+  }
+
+  .footerList a {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 4vw;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 0.5rem;
+  }
+
+  .footerList li:hover a {
+    color: #5eff00;
+  }
+  /* Links sociais */
+  .socialLinks {
+    width: 100%;
+    overflow: hidden;
+  }
+  .socialLinks .div_icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .socialLinks img {
+    display: none;
+  }
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2vw;
+    color: rgb(3, 3, 3);
+    font-size: 7vw;
+    border-radius: 4px;
+    font-family: Gotham;
+    overflow: hidden;
+  }
+
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+
+  .footer .bi {
+    color: #5eff00;
+  }
+
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 4vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  /* footer.module.css */
+  .section_5 {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #050505;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    flex: 1;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2vh;
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .footerTitle {
+    font-family: Proelium;
+    overflow: hidden;
+    font-size: 8vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerText {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 5vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footerList li:hover {
+    background-color: #333;
+    color: #050505;
+  }
+
+  .footerList li i {
+    margin-right: 8px;
+  }
+
+  .footerList a {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 4vw;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 0.5rem;
+  }
+
+  .footerList li:hover a {
+    color: #5eff00;
+  }
+  /* Links sociais */
+  .socialLinks {
+    width: 100%;
+    overflow: hidden;
+  }
+  .socialLinks .div_icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .socialLinks img {
+    display: none;
+  }
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2vw;
+    color: rgb(3, 3, 3);
+    font-size: 7vw;
+    border-radius: 4px;
+    font-family: Gotham;
+    overflow: hidden;
+  }
+
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+
+  .footer .bi {
+    color: #5eff00;
+  }
+
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 4vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+  }
+}
+@media (max-width: 480px) {
+  /* footer.module.css */
+  .section_5 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #050505;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    flex: 1;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2vh;
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .footerTitle {
+    font-family: Proelium;
+    overflow: hidden;
+    font-size: 8vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerText {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 5vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footerList li:hover {
+    background-color: #333;
+    color: #050505;
+  }
+
+  .footerList li i {
+    margin-right: 8px;
+  }
+
+  .footerList a {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 4vw;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 0.5rem;
+  }
+
+  .footerList li:hover a {
+    color: #5eff00;
+  }
+  /* Links sociais */
+  .socialLinks {
+    width: 100%;
+    overflow: hidden;
+  }
+  .socialLinks .div_icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .socialLinks img {
+    display: none;
+  }
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2vw;
+    color: rgb(3, 3, 3);
+    font-size: 7vw;
+    border-radius: 4px;
+    font-family: Gotham;
+    overflow: hidden;
+  }
+
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+
+  .footer .bi {
+    color: #5eff00;
+  }
+
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 4vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+  }
+}
+@media (max-width: 320px) {
+  /* footer.module.css */
+  .section_5 {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  /* Estilos principais do footer */
+  .footer {
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    color: #050505;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerColumn {
+    flex: 1;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2vh;
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  .footerTitle {
+    font-family: Proelium;
+    overflow: hidden;
+    font-size: 8vw;
+    background: linear-gradient(to left, #5eff00, #5eff00);
+    -webkit-background-clip: text; /* Para Safari */
+    -webkit-text-fill-color: transparent; /* Para Safari */
+    color: transparent; /* Para outros navegadores */
+    transition: none !important; /* Mantém a transição como none */
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerText {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 5vw;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .footerList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerList li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footerList li:hover {
+    background-color: #333;
+    color: #050505;
+  }
+
+  .footerList li i {
+    margin-right: 8px;
+  }
+
+  .footerList a {
+    font-family: Gotham;
+    color: #050505;
+    font-size: 4vw;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 0.5rem;
+  }
+
+  .footerList li:hover a {
+    color: #5eff00;
+  }
+  /* Links sociais */
+  .socialLinks {
+    width: 100%;
+    overflow: hidden;
+  }
+  .socialLinks .div_icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .socialLinks img {
+    display: none;
+  }
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2vw;
+    color: rgb(3, 3, 3);
+    font-size: 7vw;
+    border-radius: 4px;
+    font-family: Gotham;
+    overflow: hidden;
+  }
+
+  .socialLinks a:hover {
+    color: #5eff00;
+  }
+
+  .footer .bi {
+    color: #5eff00;
+  }
+
+  /* Copyright */
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    color: #050505;
+    font-family: Gotham;
+    font-size: 4vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+  }
+}
